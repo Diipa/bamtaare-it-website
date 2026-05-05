@@ -1,0 +1,84 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8f0f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d2817;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a1810;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#bgGradient)"/>
+  
+  <!-- Body/Shirt -->
+  <ellipse cx="200" cy="280" rx="70" ry="90" fill="#1e3a5f"/>
+  
+  <!-- Arms -->
+  <!-- Left arm -->
+  <rect x="90" y="250" width="45" height="80" rx="22" fill="url(#skinGradient)"/>
+  <!-- Right arm -->
+  <rect x="265" y="250" width="45" height="80" rx="22" fill="url(#skinGradient)"/>
+  
+  <!-- Briefcase/Porte-documents -->
+  <g transform="translate(310, 290)">
+    <!-- Briefcase body -->
+    <rect x="0" y="0" width="70" height="50" rx="3" fill="#2c1810" stroke="#1a0f08" stroke-width="2"/>
+    <!-- Briefcase handle -->
+    <path d="M 15 0 Q 35 -25 55 0" fill="none" stroke="#3d2817" stroke-width="5" stroke-linecap="round"/>
+    <!-- Briefcase details -->
+    <line x1="35" y1="0" x2="35" y2="50" stroke="#1a0f08" stroke-width="1"/>
+    <circle cx="25" cy="25" r="4" fill="#ff6b35"/>
+    <rect x="45" y="15" width="15" height="20" fill="#1a0f08" opacity="0.3"/>
+  </g>
+  
+  <!-- Head -->
+  <circle cx="200" cy="140" r="55" fill="url(#skinGradient)"/>
+  
+  <!-- Hair -->
+  <ellipse cx="200" cy="110" rx="58" ry="50" fill="#1a0f08"/>
+  <!-- Hair texture - curly -->
+  <circle cx="160" cy="95" r="12" fill="#1a0f08"/>
+  <circle cx="175" cy="85" r="10" fill="#1a0f08"/>
+  <circle cx="190" cy="80" r="11" fill="#1a0f08"/>
+  <circle cx="210" cy="80" r="11" fill="#1a0f08"/>
+  <circle cx="225" cy="85" r="10" fill="#1a0f08"/>
+  <circle cx="240" cy="95" r="12" fill="#1a0f08"/>
+  
+  <!-- Eyes -->
+  <circle cx="175" cy="130" r="6" fill="#ffffff"/>
+  <circle cx="225" cy="130" r="6" fill="#ffffff"/>
+  <circle cx="177" cy="131" r="3" fill="#1a0f08"/>
+  <circle cx="227" cy="131" r="3" fill="#1a0f08"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 160 115 Q 175 110 190 115" fill="none" stroke="#1a0f08" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 210 115 Q 225 110 240 115" fill="none" stroke="#1a0f08" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M 200 130 L 200 155 L 198 160" fill="none" stroke="#2a1810" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Mouth - confident smile -->
+  <path d="M 180 170 Q 200 180 220 170" fill="none" stroke="#8b4513" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Lips -->
+  <ellipse cx="200" cy="172" rx="20" ry="6" fill="#a0522d" opacity="0.6"/>
+  
+  <!-- Neck -->
+  <rect x="185" y="195" width="30" height="25" fill="url(#skinGradient)"/>
+  
+  <!-- Collar detail -->
+  <path d="M 185 200 L 215 200" stroke="#1e3a5f" stroke-width="2"/>
+  
+  <!-- Shoulder details -->
+  <ellipse cx="130" cy="245" rx="25" ry="30" fill="url(#skinGradient)"/>
+  <ellipse cx="270" cy="245" rx="25" ry="30" fill="url(#skinGradient)"/>
+  
+  <!-- Professional look - slight shine on face -->
+  <ellipse cx="175" cy="115" rx="15" ry="20" fill="white" opacity="0.1"/>
+  
+  <!-- Decorative accent line -->
+  <line x1="80" y1="350" x2="320" y2="350" stroke="#ff6b35" stroke-width="3" opacity="0.2"/>
+</svg>
